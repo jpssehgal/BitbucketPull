@@ -1,0 +1,49 @@
+{
+ "title": "Merge some branches", 
+ "description": "Merger REST",  
+ "state": "OPEN",  
+ "open": true,  
+ "closed": false, 
+ "fromRef":
+    {
+        "id": "refs/heads/branch",
+        "repository":
+            {
+                "slug": "source_repo",
+                "name": "source_repo",
+                "project":
+                    {
+                        "key": "project_Name"
+                    }
+            }
+      }, 
+ "toRef":
+     {
+         "id": "refs/heads/master",
+         "repository":
+             {
+                 "slug": "target_repo",
+                 "name": "target_repo",
+                 "project":
+                    {
+                        "key": "project_Name"
+                    }
+             }
+      }, 
+"locked": false,  
+"reviewers": 
+[ 
+	{ 
+		"user":
+		{
+			"name":"john",
+			"emailAddress":"john@xyz.com",
+			"id":2796,
+			"displayName":"john McCullum",
+			"active":true,
+			"slug":"john",
+			"type":"NORMAL"
+		}
+	}
+] 
+}
